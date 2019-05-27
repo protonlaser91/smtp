@@ -15,7 +15,7 @@ hlist = [x+str(".") if x != ' ' else ' ' for x in "Analyzing data from REDACTED@
 hlist.reverse()
 print(len(hlist))
 
-with open('someth.txt',mode='r+') as f:
+with open('elist.txt',mode='r+') as f:
     #f.truncate(0)
     #for i in range(5):
      #   f.write(f"REDACTED{i} REDACTED@gmail.com\n")
